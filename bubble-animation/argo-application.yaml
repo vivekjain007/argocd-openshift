@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     namespace: bubble-animation
-    server: https://kubernetes.default.svc 
+    server: https://api.openshift.sandbox.bosch-data-loop.com:6443 
   project: default 
   source: 
     path: bubble-animation/application-mainfest
-    repoURL: https://github.com/ksingh7/argocd-openshift
+    repoURL: https://github.com/vivekjain007/argocd-openshift
     targetRevision: main
   syncPolicy: 
     automated:
